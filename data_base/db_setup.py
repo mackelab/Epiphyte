@@ -6,6 +6,9 @@ import data_base.config as config
 import data_base.helpers as helpers
 import data_preprocessing.data_utils as data_utils
 
+dj.config['database.host'] = "129.187.212.120"
+dj.conn()
+
 dhv_schema = dj.schema('dhv', locals())
 
 dj.config['stores'] = {
