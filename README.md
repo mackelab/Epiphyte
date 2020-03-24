@@ -2,4 +2,4 @@
 
 We created a data processing pipeline for large datasets of single spiking activity.
 
-Test discord webhook.
+ Discord webhook disabled.
